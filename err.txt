@@ -1,0 +1,1524 @@
+execve("/usr/sbin/netdata", ["netdata"], 0x7ffd4c6a62f0 /* 19 vars */) = 0
+brk(NULL)                               = 0x5599e6f6e000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=63231, ...}) = 0
+mmap(NULL, 63231, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f0d29ef5000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p\322\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=1579448, ...}) = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0d29ef3000
+mmap(NULL, 1581384, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f0d29d70000
+mmap(0x7f0d29d7d000, 651264, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xd000) = 0x7f0d29d7d000
+mmap(0x7f0d29e1c000, 872448, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xac000) = 0x7f0d29e1c000
+mmap(0x7f0d29ef1000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x180000) = 0x7f0d29ef1000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libz.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320#\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=121280, ...}) = 0
+mmap(NULL, 2216336, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f0d29b52000
+mprotect(0x7f0d29b6e000, 2097152, PROT_NONE) = 0
+mmap(0x7f0d29d6e000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1c000) = 0x7f0d29d6e000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libcrypto.so.1.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\360\10\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=3031904, ...}) = 0
+mmap(NULL, 3051424, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f0d29869000
+mprotect(0x7f0d298ee000, 2285568, PROT_NONE) = 0
+mmap(0x7f0d298ee000, 1695744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x85000) = 0x7f0d298ee000
+mmap(0x7f0d29a8c000, 585728, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x223000) = 0x7f0d29a8c000
+mmap(0x7f0d29b1c000, 204800, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2b2000) = 0x7f0d29b1c000
+mmap(0x7f0d29b4e000, 16288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f0d29b4e000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libssl.so.1.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\364\1\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=593696, ...}) = 0
+mmap(NULL, 596272, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f0d297d7000
+mprotect(0x7f0d297f4000, 425984, PROT_NONE) = 0
+mmap(0x7f0d297f4000, 315392, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1d000) = 0x7f0d297f4000
+mmap(0x7f0d29841000, 106496, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6a000) = 0x7f0d29841000
+mmap(0x7f0d2985c000, 53248, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x84000) = 0x7f0d2985c000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libuuid.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 #\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=30776, ...}) = 0
+mmap(NULL, 32792, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f0d297ce000
+mmap(0x7f0d297d0000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f0d297d0000
+mmap(0x7f0d297d4000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7f0d297d4000
+mmap(0x7f0d297d5000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7f0d297d5000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libuv.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\246\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=178096, ...}) = 0
+mmap(NULL, 181896, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f0d297a1000
+mmap(0x7f0d297aa000, 102400, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x9000) = 0x7f0d297aa000
+mmap(0x7f0d297c3000, 36864, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x22000) = 0x7f0d297c3000
+mmap(0x7f0d297cc000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2a000) = 0x7f0d297cc000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/liblz4.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\"\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=121184, ...}) = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0d2979f000
+mmap(NULL, 123264, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f0d29780000
+mmap(0x7f0d29782000, 98304, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f0d29782000
+mmap(0x7f0d2979a000, 12288, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1a000) = 0x7f0d2979a000
+mmap(0x7f0d2979d000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1c000) = 0x7f0d2979d000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libJudy.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240A\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=333560, ...}) = 0
+mmap(NULL, 2429312, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f0d2952e000
+mprotect(0x7f0d2957f000, 2093056, PROT_NONE) = 0
+mmap(0x7f0d2977e000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x50000) = 0x7f0d2977e000
+close(3)                                = 0
+openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/libjson-c.so.3", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P2\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=47040, ...}) = 0
+mmap(NULL, 49208, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f0d29521000
+mmap(0x7f0d29524000, 24576, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7f0d29524000
+mmap(0x7f0d2952a000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x9000) = 0x7f0d2952a000
+mmap(0x7f0d2952c000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xa000) = 0x7f0d2952c000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\21\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=14592, ...}) = 0
+mmap(NULL, 16656, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f0d2951c000
+mmap(0x7f0d2951d000, 4096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7f0d2951d000
+mmap(0x7f0d2951e000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f0d2951e000
+mmap(0x7f0d2951f000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f0d2951f000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@l\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=146968, ...}) = 0
+mmap(NULL, 132288, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f0d294fb000
+mmap(0x7f0d29501000, 61440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7f0d29501000
+mmap(0x7f0d29510000, 24576, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x15000) = 0x7f0d29510000
+mmap(0x7f0d29516000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1a000) = 0x7f0d29516000
+mmap(0x7f0d29518000, 13504, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f0d29518000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260A\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1824496, ...}) = 0
+mmap(NULL, 1837056, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f0d2933a000
+mprotect(0x7f0d2935c000, 1658880, PROT_NONE) = 0
+mmap(0x7f0d2935c000, 1343488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x22000) = 0x7f0d2935c000
+mmap(0x7f0d294a4000, 311296, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x16a000) = 0x7f0d294a4000
+mmap(0x7f0d294f1000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1b6000) = 0x7f0d294f1000
+mmap(0x7f0d294f7000, 14336, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f0d294f7000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/librt.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260#\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=35808, ...}) = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0d29338000
+mmap(NULL, 39904, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f0d2932e000
+mmap(0x7f0d29330000, 16384, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f0d29330000
+mmap(0x7f0d29334000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7f0d29334000
+mmap(0x7f0d29336000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7000) = 0x7f0d29336000
+close(3)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libnsl.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260F\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=89016, ...}) = 0
+mmap(NULL, 100952, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f0d29315000
+mmap(0x7f0d29319000, 49152, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000) = 0x7f0d29319000
+mmap(0x7f0d29325000, 20480, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x10000) = 0x7f0d29325000
+mmap(0x7f0d2932a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x14000) = 0x7f0d2932a000
+mmap(0x7f0d2932c000, 6744, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f0d2932c000
+close(3)                                = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f0d29313000
+arch_prctl(ARCH_SET_FS, 0x7f0d29314240) = 0
+mprotect(0x7f0d294f1000, 16384, PROT_READ) = 0
+mprotect(0x7f0d2932a000, 4096, PROT_READ) = 0
+mprotect(0x7f0d29516000, 4096, PROT_READ) = 0
+mprotect(0x7f0d29336000, 4096, PROT_READ) = 0
+mprotect(0x7f0d2951f000, 4096, PROT_READ) = 0
+mprotect(0x7f0d2952c000, 4096, PROT_READ) = 0
+mprotect(0x7f0d2977e000, 4096, PROT_READ) = 0
+mprotect(0x7f0d2979d000, 4096, PROT_READ) = 0
+mprotect(0x7f0d297cc000, 4096, PROT_READ) = 0
+mprotect(0x7f0d297d5000, 4096, PROT_READ) = 0
+mprotect(0x7f0d29b1c000, 196608, PROT_READ) = 0
+mprotect(0x7f0d2985c000, 36864, PROT_READ) = 0
+mprotect(0x7f0d29d6e000, 4096, PROT_READ) = 0
+mprotect(0x7f0d29ef1000, 4096, PROT_READ) = 0
+mprotect(0x5599e6122000, 12288, PROT_READ) = 0
+mprotect(0x7f0d29f2c000, 4096, PROT_READ) = 0
+munmap(0x7f0d29ef5000, 63231)           = 0
+set_tid_address(0x7f0d29314510)         = 2893
+set_robust_list(0x7f0d29314520, 24)     = 0
+rt_sigaction(SIGRTMIN, {sa_handler=0x7f0d295016b0, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7f0d2950d730}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {sa_handler=0x7f0d29501740, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART|SA_SIGINFO, sa_restorer=0x7f0d2950d730}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+prlimit64(0, RLIMIT_NOFILE, NULL, {rlim_cur=1024, rlim_max=1024*1024}) = 0
+fcntl(1023, F_GETFD)                    = -1 EBADF (Bad file descriptor)
+fcntl(1022, F_GETFD)                    = -1 EBADF (Bad file descriptor)
+fcntl(1021, F_GETFD)                    = -1 EBADF (Bad file descriptor)
+fcntl(1020, F_GETFD)                    = -1 EBADF (Bad file descriptor)
+fcntl(1019, F_GETFD)                    = -1 EBADF (Bad file descriptor)
+fcntl(1018, F_GETFD)                    = -1 EBADF (Bad file descriptor)
+fcntl(1017, F_GETFD)                    = -1 EBADF (Bad file descriptor)
+fcntl(1016, F_GETFD)                    = -1 EBADF (Bad file descriptor)
+fcntl(1015, F_GETFD)                    = -1 EBADF (Bad file descriptor)
+fcntl(1014, F_GETFD)                    = -1 EBADF (Bad file descriptor)
+fcntl(1013, F_GETFD)                    = -1 EBADF (Bad file descriptor)
+fcntl(1012, F_GETFD)                    = -1 EBADF (Bad file descriptor)
+fcntl(1011, F_GETFD)                    = -1 EBADF (Bad file descriptor)
+fcntl(1010, F_GETFD)                    = -1 EBADF (Bad file descriptor)
+fcntl(1009, F_GETFD)                    = -1 EBADF (Bad file descriptor)
+fcntl(1008, F_GETFD)                    = -1 EBADF (Bad file descriptor)
+fcntl(1007, F_GETFD)                    = -1 EBADF (Bad file descriptor)
+fcntl(1006, F_GETFD)                    = -1 EBADF (Bad file descriptor)
+fcntl(1005, F_GETFD)                    = -1 EBADF (Bad file descriptor)
+fcntl(1004, F_GETFD)                    = -1 EBADF (Bad file descriptor)
+fcntl(1003, F_GETFD)                    = -1 EBADF (Bad file descriptor)
+fcntl(1002, F_GETFD)                    = -1 EBADF (Bad file descriptor)
+fcntl(1001, F_GETFD)                    = -1 EBADF (Bad file descriptor)
+fcntl(1000, F_GETFD)                    = -1 EBADF (Bad file descriptor)
+fcntl(999, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(998, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(997, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(996, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(995, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(994, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(993, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(992, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(991, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(990, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(989, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(988, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(987, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(986, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(985, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(984, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(983, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(982, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(981, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(980, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(979, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(978, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(977, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(976, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(975, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(974, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(973, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(972, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(971, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(970, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(969, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(968, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(967, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(966, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(965, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(964, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(963, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(962, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(961, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(960, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(959, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(958, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(957, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(956, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(955, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(954, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(953, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(952, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(951, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(950, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(949, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(948, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(947, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(946, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(945, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(944, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(943, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(942, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(941, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(940, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(939, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(938, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(937, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(936, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(935, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(934, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(933, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(932, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(931, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(930, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(929, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(928, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(927, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(926, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(925, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(924, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(923, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(922, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(921, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(920, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(919, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(918, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(917, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(916, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(915, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(914, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(913, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(912, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(911, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(910, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(909, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(908, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(907, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(906, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(905, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(904, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(903, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(902, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(901, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(900, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(899, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(898, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(897, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(896, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(895, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(894, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(893, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(892, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(891, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(890, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(889, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(888, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(887, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(886, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(885, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(884, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(883, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(882, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(881, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(880, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(879, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(878, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(877, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(876, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(875, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(874, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(873, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(872, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(871, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(870, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(869, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(868, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(867, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(866, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(865, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(864, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(863, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(862, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(861, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(860, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(859, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(858, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(857, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(856, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(855, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(854, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(853, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(852, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(851, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(850, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(849, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(848, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(847, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(846, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(845, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(844, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(843, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(842, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(841, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(840, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(839, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(838, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(837, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(836, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(835, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(834, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(833, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(832, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(831, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(830, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(829, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(828, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(827, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(826, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(825, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(824, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(823, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(822, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(821, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(820, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(819, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(818, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(817, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(816, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(815, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(814, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(813, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(812, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(811, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(810, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(809, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(808, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(807, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(806, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(805, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(804, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(803, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(802, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(801, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(800, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(799, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(798, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(797, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(796, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(795, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(794, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(793, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(792, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(791, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(790, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(789, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(788, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(787, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(786, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(785, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(784, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(783, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(782, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(781, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(780, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(779, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(778, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(777, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(776, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(775, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(774, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(773, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(772, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(771, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(770, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(769, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(768, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(767, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(766, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(765, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(764, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(763, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(762, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(761, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(760, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(759, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(758, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(757, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(756, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(755, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(754, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(753, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(752, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(751, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(750, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(749, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(748, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(747, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(746, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(745, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(744, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(743, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(742, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(741, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(740, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(739, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(738, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(737, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(736, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(735, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(734, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(733, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(732, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(731, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(730, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(729, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(728, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(727, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(726, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(725, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(724, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(723, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(722, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(721, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(720, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(719, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(718, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(717, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(716, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(715, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(714, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(713, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(712, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(711, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(710, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(709, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(708, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(707, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(706, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(705, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(704, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(703, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(702, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(701, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(700, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(699, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(698, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(697, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(696, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(695, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(694, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(693, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(692, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(691, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(690, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(689, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(688, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(687, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(686, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(685, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(684, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(683, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(682, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(681, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(680, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(679, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(678, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(677, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(676, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(675, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(674, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(673, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(672, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(671, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(670, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(669, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(668, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(667, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(666, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(665, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(664, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(663, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(662, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(661, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(660, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(659, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(658, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(657, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(656, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(655, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(654, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(653, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(652, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(651, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(650, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(649, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(648, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(647, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(646, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(645, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(644, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(643, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(642, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(641, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(640, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(639, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(638, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(637, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(636, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(635, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(634, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(633, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(632, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(631, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(630, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(629, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(628, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(627, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(626, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(625, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(624, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(623, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(622, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(621, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(620, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(619, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(618, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(617, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(616, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(615, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(614, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(613, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(612, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(611, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(610, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(609, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(608, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(607, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(606, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(605, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(604, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(603, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(602, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(601, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(600, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(599, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(598, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(597, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(596, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(595, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(594, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(593, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(592, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(591, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(590, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(589, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(588, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(587, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(586, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(585, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(584, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(583, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(582, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(581, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(580, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(579, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(578, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(577, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(576, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(575, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(574, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(573, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(572, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(571, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(570, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(569, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(568, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(567, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(566, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(565, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(564, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(563, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(562, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(561, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(560, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(559, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(558, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(557, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(556, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(555, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(554, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(553, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(552, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(551, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(550, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(549, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(548, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(547, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(546, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(545, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(544, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(543, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(542, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(541, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(540, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(539, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(538, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(537, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(536, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(535, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(534, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(533, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(532, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(531, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(530, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(529, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(528, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(527, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(526, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(525, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(524, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(523, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(522, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(521, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(520, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(519, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(518, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(517, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(516, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(515, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(514, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(513, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(512, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(511, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(510, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(509, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(508, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(507, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(506, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(505, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(504, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(503, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(502, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(501, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(500, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(499, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(498, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(497, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(496, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(495, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(494, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(493, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(492, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(491, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(490, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(489, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(488, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(487, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(486, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(485, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(484, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(483, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(482, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(481, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(480, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(479, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(478, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(477, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(476, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(475, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(474, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(473, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(472, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(471, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(470, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(469, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(468, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(467, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(466, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(465, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(464, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(463, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(462, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(461, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(460, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(459, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(458, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(457, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(456, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(455, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(454, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(453, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(452, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(451, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(450, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(449, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(448, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(447, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(446, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(445, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(444, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(443, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(442, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(441, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(440, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(439, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(438, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(437, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(436, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(435, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(434, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(433, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(432, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(431, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(430, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(429, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(428, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(427, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(426, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(425, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(424, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(423, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(422, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(421, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(420, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(419, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(418, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(417, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(416, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(415, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(414, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(413, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(412, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(411, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(410, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(409, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(408, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(407, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(406, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(405, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(404, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(403, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(402, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(401, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(400, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(399, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(398, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(397, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(396, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(395, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(394, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(393, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(392, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(391, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(390, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(389, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(388, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(387, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(386, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(385, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(384, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(383, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(382, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(381, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(380, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(379, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(378, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(377, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(376, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(375, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(374, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(373, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(372, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(371, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(370, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(369, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(368, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(367, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(366, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(365, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(364, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(363, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(362, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(361, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(360, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(359, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(358, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(357, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(356, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(355, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(354, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(353, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(352, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(351, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(350, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(349, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(348, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(347, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(346, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(345, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(344, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(343, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(342, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(341, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(340, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(339, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(338, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(337, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(336, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(335, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(334, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(333, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(332, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(331, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(330, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(329, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(328, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(327, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(326, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(325, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(324, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(323, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(322, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(321, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(320, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(319, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(318, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(317, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(316, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(315, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(314, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(313, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(312, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(311, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(310, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(309, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(308, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(307, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(306, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(305, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(304, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(303, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(302, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(301, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(300, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(299, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(298, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(297, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(296, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(295, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(294, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(293, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(292, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(291, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(290, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(289, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(288, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(287, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(286, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(285, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(284, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(283, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(282, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(281, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(280, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(279, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(278, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(277, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(276, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(275, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(274, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(273, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(272, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(271, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(270, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(269, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(268, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(267, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(266, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(265, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(264, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(263, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(262, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(261, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(260, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(259, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(258, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(257, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(256, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(255, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(254, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(253, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(252, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(251, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(250, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(249, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(248, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(247, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(246, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(245, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(244, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(243, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(242, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(241, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(240, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(239, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(238, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(237, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(236, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(235, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(234, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(233, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(232, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(231, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(230, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(229, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(228, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(227, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(226, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(225, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(224, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(223, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(222, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(221, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(220, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(219, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(218, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(217, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(216, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(215, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(214, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(213, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(212, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(211, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(210, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(209, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(208, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(207, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(206, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(205, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(204, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(203, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(202, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(201, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(200, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(199, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(198, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(197, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(196, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(195, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(194, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(193, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(192, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(191, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(190, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(189, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(188, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(187, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(186, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(185, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(184, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(183, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(182, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(181, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(180, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(179, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(178, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(177, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(176, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(175, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(174, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(173, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(172, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(171, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(170, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(169, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(168, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(167, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(166, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(165, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(164, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(163, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(162, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(161, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(160, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(159, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(158, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(157, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(156, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(155, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(154, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(153, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(152, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(151, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(150, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(149, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(148, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(147, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(146, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(145, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(144, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(143, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(142, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(141, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(140, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(139, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(138, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(137, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(136, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(135, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(134, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(133, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(132, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(131, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(130, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(129, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(128, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(127, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(126, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(125, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(124, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(123, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(122, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(121, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(120, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(119, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(118, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(117, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(116, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(115, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(114, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(113, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(112, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(111, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(110, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(109, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(108, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(107, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(106, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(105, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(104, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(103, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(102, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(101, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(100, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+fcntl(99, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(98, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(97, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(96, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(95, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(94, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(93, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(92, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(91, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(90, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(89, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(88, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(87, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(86, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(85, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(84, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(83, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(82, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(81, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(80, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(79, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(78, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(77, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(76, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(75, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(74, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(73, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(72, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(71, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(70, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(69, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(68, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(67, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(66, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(65, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(64, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(63, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(62, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(61, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(60, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(59, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(58, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(57, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(56, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(55, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(54, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(53, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(52, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(51, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(50, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(49, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(48, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(47, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(46, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(45, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(44, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(43, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(42, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(41, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(40, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(39, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(38, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(37, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(36, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(35, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(34, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(33, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(32, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(31, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(30, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(29, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(28, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(27, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(26, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(25, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(24, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(23, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(22, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(21, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(20, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(19, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(18, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(17, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(16, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(15, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(14, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(13, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(12, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(11, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(10, F_GETFD)                      = -1 EBADF (Bad file descriptor)
+fcntl(9, F_GETFD)                       = -1 EBADF (Bad file descriptor)
+fcntl(8, F_GETFD)                       = -1 EBADF (Bad file descriptor)
+fcntl(7, F_GETFD)                       = -1 EBADF (Bad file descriptor)
+fcntl(6, F_GETFD)                       = -1 EBADF (Bad file descriptor)
+fcntl(5, F_GETFD)                       = -1 EBADF (Bad file descriptor)
+fcntl(4, F_GETFD)                       = -1 EBADF (Bad file descriptor)
+fcntl(3, F_GETFD)                       = -1 EBADF (Bad file descriptor)
+brk(NULL)                               = 0x5599e6f6e000
+brk(0x5599e6f8f000)                     = 0x5599e6f8f000
+openat(AT_FDCWD, "/etc/netdata/netdata.conf", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=531771, ...}) = 0
+read(3, "# netdata configuration\n#\n# You "..., 4096) = 4096
+read(3, "ry db directory = /var/lib/netda"..., 4096) = 4096
+read(3, " auto\n\t# recheck zero blkio ever"..., 4096) = 4096
+read(3, "odes usage = no\n\n[plugin:proc:di"..., 4096) = 4096
+read(3, "te\n\t# enable new interfaces dete"..., 4096) = 4096
+read(3, " = auto\n\t# fifo = auto\n\t# compre"..., 4096) = 4096
+read(3, "ntries = auto\n\t# SYNPROXY cookie"..., 4096) = 4096
+read(3, "roc/diskstats:sda9]\n\t# enable = "..., 4096) = 4096
+read(3, " auto\n\t# utilization percentage "..., 4096) = 4096
+read(3, "= yes\n\t# cache directory = /var/"..., 4096) = 4096
+read(3, "= 1\n\n[netdata.statsd_reads]\n\t# h"..., 4096) = 4096
+read(3, "ontext = netdata.statsd_cpu\n\t# p"..., 4096) = 4096
+read(3, "used\n\t# dim used algorithm = abs"..., 4096) = 4096
+read(3, "ity = 2023\n\t# name = disk_space."..., 4096) = 4096
+read(3, "hm = absolute\n\t# dim reserved_fo"..., 4096) = 4096
+read(3, "d\n\t# type = disk_inodes\n\t# famil"..., 4096) = 4096
+read(3, "ithm = absolute\n\t# dim avail mul"..., 4096) = 4096
+read(3, "pids\n\t# dim new_pids algorithm ="..., 4096) = 4096
+read(3, "im containers algorithm = absolu"..., 4096) = 4096
+read(3, "absolute\n\t# dim kernel multiplie"..., 4096) = 4096
+read(3, "\t# dim tc-qos-helper algorithm ="..., 4096) = 4096
+read(3, "bsolute\n\t# dim nfs multiplier = "..., 4096) = 4096
+read(3, " dim ksmd multiplier = 1\n\t# dim "..., 4096) = 4096
+read(3, "in name = python.d.plugin\n\t# dim"..., 4096) = 4096
+read(3, "r = 1\n\t# dim logs divisor = 1\n\t#"..., 4096) = 4096
+read(3, "m dns divisor = 10000\n\t# dim cro"..., 4096) = 4096
+read(3, "units = MiB\n\t# context = apps.sw"..., 4096) = 4096
+read(3, "2ban\n\t# dim fail2ban algorithm ="..., 4096) = 4096
+read(3, " dim zfs divisor = 10000\n\t# dim "..., 4096) = 4096
+read(3, "\n\t# dim ksmd algorithm = absolut"..., 4096) = 4096
+read(3, "er = 1\n\t# dim netdata divisor = "..., 4096) = 4096
+read(3, " name = proxy\n\t# dim proxy algor"..., 4096) = 4096
+read(3, "ers name = containers\n\t# dim con"..., 4096) = 4096
+read(3, "dim other name = other\n\t# dim ot"..., 4096) = 4096
+read(3, "= 1\n\t# dim 100103 divisor = 1000"..., 4096) = 4096
+read(3, "4 divisor = 1024\n\t# dim _apt nam"..., 4096) = 4096
+read(3, "bsolute\n\t# dim messagebus multip"..., 4096) = 4096
+read(3, "tiplier = 1\n\t# dim systemd-bus-p"..., 4096) = 4096
+read(3, "= 1\n\t# dim root divisor = 1\n\n[us"..., 4096) = 4096
+read(3, "m systemd-resolve name = systemd"..., 4096) = 4096
+read(3, "\t# dim 100102 algorithm = absolu"..., 4096) = 4096
+read(3, "10000\n\t# dim 100109 name = 10010"..., 4096) = 4096
+read(3, "postfix\n\t# dim postfix algorithm"..., 4096) = 4096
+read(3, "ectory = /var/cache/netdata/user"..., 4096) = 4096
+read(3, " divisor = 10240000\n\t# dim syste"..., 4096) = 4096
+read(3, "etdata multiplier = 1\n\t# dim net"..., 4096) = 4096
+read(3, " www-data name = www-data\n\t# dim"..., 4096) = 4096
+read(3, "absolute\n\t# dim systemd-bus-prox"..., 4096) = 4096
+read(3, "m = absolute\n\t# dim root multipl"..., 4096) = 4096
+read(3, "e = crontab\n\t# dim crontab algor"..., 4096) = 4096
+read(3, "06 divisor = 1024\n\t# dim 100107 "..., 4096) = 4096
+read(3, "olute\n\t# dim 165534 multiplier ="..., 4096) = 4096
+read(3, "109 divisor = 1\n\t# dim ssh name "..., 4096) = 4096
+read(3, "m www-data name = www-data\n\t# di"..., 4096) = 4096
+read(3, "e\n\t# dim systemd-timesync multip"..., 4096) = 4096
+read(3, "e = groups\n\t# family = cpu\n\t# un"..., 4096) = 4096
+read(3, " dim crontab divisor = 10000\n\t# "..., 4096) = 4096
+read(3, "100107 multiplier = 1\n\t# dim 100"..., 4096) = 4096
+read(3, "# dim 165534 algorithm = absolut"..., 4096) = 4096
+read(3, "lute\n\t# dim postfix multiplier ="..., 4096) = 4096
+read(3, "data/groups.lreads\n\t# chart type"..., 4096) = 4096
+read(3, " = crontab\n\t# dim crontab algori"..., 4096) = 4096
+read(3, "visor = 1\n\t# dim 100107 name = 1"..., 4096) = 4096
+read(3, "ame = 100108\n\t# dim 100108 algor"..., 4096) = 4096
+read(3, " algorithm = percentage-of-incre"..., 4096) = 4096
+read(3, "im nice multiplier = 1\n\t# dim ni"..., 4096) = 4096
+read(3, "# dim guest divisor = 1\n\t# dim s"..., 4096) = 4096
+read(3, "it\n\t# dim iowait algorithm = per"..., 4096) = 4096
+read(3, "orithm = percentage-of-increment"..., 4096) = 4096
+read(3, "# dim iowait multiplier = 1\n\t# d"..., 4096) = 4096
+read(3, "ystem.ctxt\n\t# title = CPU Contex"..., 4096) = 4096
+read(3, "\t# dim cpu0_cpuidle_state2_time "..., 4096) = 4096
+read(3, "entage-of-incremental-row\n\t# dim"..., 4096) = 4096
+read(3, ".cpu8_cpuidle\n\t# title = C-state"..., 4096) = 4096
+read(3, "of-incremental-row\n\t# dim cpu11_"..., 4096) = 4096
+read(3, "dim cpu15_cpuidle_state0_time mu"..., 4096) = 4096
+read(3, " name = mpt2sas0-msix0_53\n\t# dim"..., 4096) = 4096
+read(3, "tiplier = 1\n\t# dim NMI divisor ="..., 4096) = 4096
+read(3, "= incremental\n\t# dim MCP multipl"..., 4096) = 4096
+read(3, "tal\n\t# dim PMI multiplier = 1\n\t#"..., 4096) = 4096
+read(3, "ry = 5\n\t# enabled = yes\n\t# cache"..., 4096) = 4096
+read(3, " = incremental\n\t# dim TIMER mult"..., 4096) = 4096
+read(3, "im NET_RX divisor = 1\n\t# dim BLO"..., 4096) = 4096
+read(3, "ame = BLOCK\n\t# dim BLOCK algorit"..., 4096) = 4096
+read(3, "ER name = TIMER\n\t# dim TIMER alg"..., 4096) = 4096
+read(3, "directory = /var/cache/netdata/m"..., 4096) = 4096
+read(3, "\t# dim PageTables divisor = 1024"..., 4096) = 4096
+read(3, "received divisor = 1000\n\t# dim s"..., 4096) = 4096
+read(3, " 1\n\t# dim sent name = sent\n\t# di"..., 4096) = 4096
+read(3, "r = 1\n\t# dim received divisor = "..., 4096) = 4096
+read(3, "net.tap102i0\n\t# title = Bandwidt"..., 4096) = 4096
+read(3, " priority = 7001\n\t# name = net_p"..., 4096) = 4096
+read(3, "ory = /var/cache/netdata/net.fwp"..., 4096) = 4096
+read(3, "t_sockets]\n\t# history = 5\n\t# ena"..., 4096) = 4096
+read(3, "ivisor = 1\n\t# dim TCPAbortOnTime"..., 4096) = 4096
+read(3, "ives algorithm = incremental\n\t# "..., 4096) = 4096
+read(3, "= 1\n\t# dim OutType8 name = OutEc"..., 4096) = 4096
+read(3, " incremental\n\t# dim TCPSynRetran"..., 4096) = 4096
+read(3, "os algorithm = incremental\n\t# di"..., 4096) = 4096
+read(3, "s name = OutAdvertisements\n\t# di"..., 4096) = 4096
+read(3, "_count name = flow_limit_count\n\t"..., 4096) = 4096
+read(3, "_count name = flow_limit_count\n\t"..., 4096) = 4096
+read(3, "_count name = flow_limit_count\n\t"..., 4096) = 4096
+read(3, "ow_limit_count name = flow_limit"..., 4096) = 4096
+read(3, "or = 1\n\t# dim flow_limit_count n"..., 4096) = 4096
+read(3, " divisor = 1\n\t# dim writes name "..., 4096) = 4096
+read(3, " disk.io\n\t# priority = 2000\n\t# n"..., 4096) = 4096
+read(3, "sor = 10\n\n[disk_iotime.sdc]\n\t# h"..., 4096) = 4096
+read(3, "a\n\t# type = disk_backlog\n\t# fami"..., 4096) = 4096
+read(3, " incremental\n\t# dim writes multi"..., 4096) = 4096
+read(3, " = milliseconds/s\n\t# context = d"..., 4096) = 4096
+read(3, "e = disk_backlog\n\t# family = pve"..., 4096) = 4096
+read(3, "0\n\t# title = Disk I/O Bandwidth\n"..., 4096) = 4096
+read(3, "= disk.util\n\t# priority = 2004\n\t"..., 4096) = 4096
+read(3, "e-vm--104--disk--0\n\t# units = op"..., 4096) = 4096
+read(3, "--disk--0\n\t# units = millisecond"..., 4096) = 4096
+read(3, "# cache directory = /var/cache/n"..., 4096) = 4096
+read(3, "RC Hash Elements\n\t# dim current "..., 4096) = 4096
+read(3, "m ksm divisor = 1000\n\t# dim numa"..., 4096) = 4096
+read(3, "ental\n\t# dim in multiplier = 8\n\t"..., 4096) = 4096
+read(3, "ons name = deletions\n\t# dim dele"..., 4096) = 4096
+read(3, "ix_local\n\t# title = Execution ti"..., 4096) = 4096
+read(3, "dim OutDatagrams name = sent\n\t# "..., 4096) = 4096
+read(3, "Completed I/O Operation Bandwidt"..., 4096) = 4096
+read(3, "ads multiplier = 1\n\t# dim reads "..., 4096) = 4096
+read(3, "multiplier = 1\n\t# dim svctm divi"..., 4096) = 4096
+brk(0x5599e6fb0000)                     = 0x5599e6fb0000
+read(3, "thm = absolute\n\t# dim writes mul"..., 4096) = 4096
+read(3, "hm = absolute\n\t# dim writes mult"..., 4096) = 4096
+read(3, "sk_svctm.pve_vm__102__disk__0\n\t#"..., 4096) = 4096
+read(3, "art type = area\n\t# type = disk_a"..., 4096) = 3387
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+getuid()                                = 0
+openat(AT_FDCWD, "/var/lib/netdata/cloud.d/cloud.conf", O_RDONLY) = -1 ENOENT (No such file or directory)
+openat(AT_FDCWD, "/etc/localtime", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=2251, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=2251, ...}) = 0
+read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\7\0\0\0\7\0\0\0\0"..., 4096) = 2251
+lseek(3, -1428, SEEK_CUR)               = 823
+read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\7\0\0\0\7\0\0\0\0"..., 4096) = 1428
+close(3)                                = 0
+socket(AF_UNIX, SOCK_DGRAM|SOCK_CLOEXEC, 0) = 3
+connect(3, {sa_family=AF_UNIX, sun_path="/dev/log"}, 110) = 0
+sendto(3, "<14>Jul  8 08:25:40 netdata: CON"..., 132, MSG_NOSIGNAL, NULL, 0) = 132
+write(2, "2020-07-08 08:25:40: netdata INF"..., 442020-07-08 08:25:40: netdata INFO  : MAIN : ) = 44
+write(2, "CONFIG: cannot load cloud config"..., 103CONFIG: cannot load cloud config '/var/lib/netdata/cloud.d/cloud.conf'. Running with internal defaults.) = 103
+write(2, "\n", 1
+)                       = 1
+uname({sysname="Linux", nodename="boxvm", ...}) = 0
+openat(AT_FDCWD, "/proc/stat", O_RDONLY) = 4
+read(4, "cpu  2006250 36962 3211896 19872"..., 512) = 512
+read(4, "08 0 47814 0\ncpu8 121392 2396 21"..., 512) = 512
+read(4, "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 "..., 512) = 512
+read(4, "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 "..., 512) = 512
+read(4, "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 "..., 512) = 512
+read(4, "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 "..., 512) = 512
+read(4, "0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 "..., 512) = 512
+read(4, "ked 0\nsoftirq 267515898 4 915282"..., 512) = 89
+read(4, "", 423)                        = 0
+lseek(4, 0, SEEK_SET)                   = 0
+close(4)                                = 0
+openat(AT_FDCWD, "/proc/sys/kernel/pid_max", O_RDONLY) = 4
+read(4, "32768\n", 30)                  = 6
+close(4)                                = 0
+chdir("/etc/netdata")                   = 0
+openat(AT_FDCWD, "/etc/netdata", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 4
+fstat(4, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+close(4)                                = 0
+chdir("/etc/netdata")                   = 0
+openat(AT_FDCWD, "/etc/netdata", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 4
+fstat(4, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+close(4)                                = 0
+chdir("/usr/lib/netdata/conf.d")        = 0
+openat(AT_FDCWD, "/usr/lib/netdata/conf.d", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 4
+fstat(4, {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+close(4)                                = 0
+chdir("/usr/libexec/netdata/plugins.d") = 0
+openat(AT_FDCWD, "/usr/libexec/netdata/plugins.d", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 4
+fstat(4, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+close(4)                                = 0
+chdir("/usr/share/netdata/web")         = 0
+openat(AT_FDCWD, "/usr/share/netdata/web", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 4
+fstat(4, {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+close(4)                                = 0
+chdir("/var/cache/netdata")             = 0
+openat(AT_FDCWD, "/var/cache/netdata", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 4
+fstat(4, {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+close(4)                                = 0
+chdir("/var/lib/netdata")               = 0
+openat(AT_FDCWD, "/var/lib/netdata", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 4
+fstat(4, {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+close(4)                                = 0
+chdir("/var/log/netdata")               = 0
+openat(AT_FDCWD, "/var/log/netdata", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 4
+fstat(4, {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+close(4)                                = 0
+chdir("/var/cache/netdata")             = 0
+openat(AT_FDCWD, "/var/cache/netdata", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 4
+fstat(4, {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+close(4)                                = 0
+openat(AT_FDCWD, "/etc/timezone", O_RDONLY) = 4
+read(4, "Europe/Oslo\n", 4096)          = 12
+close(4)                                = 0
+chdir("/etc/netdata")                   = 0
+getuid()                                = 0
+socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 4
+connect(4, {sa_family=AF_UNIX, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(4)                                = 0
+socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 4
+connect(4, {sa_family=AF_UNIX, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(4)                                = 0
+openat(AT_FDCWD, "/etc/nsswitch.conf", O_RDONLY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=510, ...}) = 0
+read(4, "# /etc/nsswitch.conf\n#\n# Example"..., 4096) = 510
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=63231, ...}) = 0
+mmap(NULL, 63231, PROT_READ, MAP_PRIVATE, 4, 0) = 0x7f0d29ef5000
+close(4)                                = 0
+openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = 4
+read(4, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0003\0\0\0\0\0\0"..., 832) = 832
+fstat(4, {st_mode=S_IFREG|0644, st_size=55792, ...}) = 0
+mmap(NULL, 83768, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 4, 0) = 0x7f0d292fe000
+mprotect(0x7f0d29301000, 40960, PROT_NONE) = 0
+mmap(0x7f0d29301000, 28672, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0x3000) = 0x7f0d29301000
+mmap(0x7f0d29308000, 8192, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0xa000) = 0x7f0d29308000
+mmap(0x7f0d2930b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 4, 0xc000) = 0x7f0d2930b000
+mmap(0x7f0d2930d000, 22328, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f0d2930d000
+close(4)                                = 0
+mprotect(0x7f0d2930b000, 4096, PROT_READ) = 0
+munmap(0x7f0d29ef5000, 63231)           = 0
+openat(AT_FDCWD, "/etc/passwd", O_RDONLY|O_CLOEXEC) = 4
+lseek(4, 0, SEEK_CUR)                   = 0
+fstat(4, {st_mode=S_IFREG|0644, st_size=1773, ...}) = 0
+read(4, "root:x:0:0:root:/root:/bin/bash\n"..., 4096) = 1773
+close(4)                                = 0
+readlink("/proc/self/exe", "/usr/sbin/netdata", 4095) = 17
+futex(0x7f0d29b50818, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f0d29b5080c, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f0d29b50804, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f0d29b508d8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f0d29b507f0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f0d29b507e8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f0d29b4dc5c, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f0d29b506c4, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f0d29b5065c, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f0d29b50650, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f0d29b507fc, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f0d29b507b8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f0d29b507b0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+openat(AT_FDCWD, "/usr/lib/ssl/openssl.cnf", O_RDONLY) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=11118, ...}) = 0
+brk(0x5599e6fd1000)                     = 0x5599e6fd1000
+read(4, "#\n# OpenSSL example configuratio"..., 4096) = 4096
+read(4, "F8Strings).\n# MASK:XXXX a litera"..., 4096) = 4096
+read(4, "icConstraints=CA:FALSE\n\n# Here a"..., 4096) = 2926
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+futex(0x7f0d29b507e0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f0d29868840, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+sysinfo({uptime=129491, loads=[39296, 32224, 44672], totalram=67372724224, freeram=7548891136, sharedram=105705472, bufferram=362422272, totalswap=8589930496, freeswap=8551395328, procs=604, totalhigh=0, freehigh=0, mem_unit=1}) = 0
+futex(0x7f0d29868928, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+rt_sigprocmask(SIG_BLOCK, ~[RTMIN RT_1], NULL, 8) = 0
+getpid()                                = 2893
+sendto(3, "<14>Jul  8 08:25:40 netdata: SIG"..., 56, MSG_NOSIGNAL, NULL, 0) = 56
+write(2, "2020-07-08 08:25:40: netdata INF"..., 442020-07-08 08:25:40: netdata INFO  : MAIN : ) = 44
+write(2, "SIGNAL: Not enabling reaper", 27SIGNAL: Not enabling reaper) = 27
+write(2, "\n", 1
+)                       = 1
+rt_sigaction(SIGPIPE, {sa_handler=SIG_IGN, sa_mask=~[RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x7f0d2950d730}, NULL, 8) = 0
+rt_sigaction(SIGINT, {sa_handler=0x5599e6088c90, sa_mask=~[RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x7f0d2950d730}, NULL, 8) = 0
+rt_sigaction(SIGQUIT, {sa_handler=0x5599e6088c90, sa_mask=~[RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x7f0d2950d730}, NULL, 8) = 0
+rt_sigaction(SIGTERM, {sa_handler=0x5599e6088c90, sa_mask=~[RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x7f0d2950d730}, NULL, 8) = 0
+rt_sigaction(SIGHUP, {sa_handler=0x5599e6088c90, sa_mask=~[RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x7f0d2950d730}, NULL, 8) = 0
+rt_sigaction(SIGUSR1, {sa_handler=0x5599e6088c90, sa_mask=~[RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x7f0d2950d730}, NULL, 8) = 0
+rt_sigaction(SIGUSR2, {sa_handler=0x5599e6088c90, sa_mask=~[RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x7f0d2950d730}, NULL, 8) = 0
+rt_sigaction(SIGBUS, {sa_handler=0x5599e6088c90, sa_mask=~[RTMIN RT_1], sa_flags=SA_RESTORER, sa_restorer=0x7f0d2950d730}, NULL, 8) = 0
+access("/dev/random", R_OK)             = 0
+getrandom("\x83\xb1\x20\xfa\x66\x48\x14\xff\x27\x9b\xad\x6f\xbe\x90\x95\x37", 16, GRND_NONBLOCK) = 16
+getpid()                                = 2893
+getuid()                                = 0
+getpid()                                = 2893
+getppid()                               = 2888
+gettid()                                = 2893
+openat(AT_FDCWD, "/etc/gai.conf", O_RDONLY|O_CLOEXEC) = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=2584, ...}) = 0
+fstat(4, {st_mode=S_IFREG|0644, st_size=2584, ...}) = 0
+read(4, "# Configuration for getaddrinfo("..., 4096) = 2584
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+futex(0x7f0d294f8044, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+socket(AF_NETLINK, SOCK_RAW|SOCK_CLOEXEC, NETLINK_ROUTE) = 4
+bind(4, {sa_family=AF_NETLINK, nl_pid=0, nl_groups=00000000}, 12) = 0
+getsockname(4, {sa_family=AF_NETLINK, nl_pid=2893, nl_groups=00000000}, [12]) = 0
+sendto(4, {{len=20, type=RTM_GETADDR, flags=NLM_F_REQUEST|NLM_F_DUMP, seq=1594189540, pid=0}, {ifa_family=AF_UNSPEC, ...}}, 20, 0, {sa_family=AF_NETLINK, nl_pid=0, nl_groups=00000000}, 12) = 20
+recvmsg(4, {msg_name={sa_family=AF_NETLINK, nl_pid=0, nl_groups=00000000}, msg_namelen=12, msg_iov=[{iov_base=[{{len=76, type=RTM_NEWADDR, flags=NLM_F_MULTI, seq=1594189540, pid=2893}, {ifa_family=AF_INET, ifa_prefixlen=8, ifa_flags=IFA_F_PERMANENT, ifa_scope=RT_SCOPE_HOST, ifa_index=if_nametoindex("lo")}, [{{nla_len=8, nla_type=IFA_ADDRESS}, inet_addr("127.0.0.1")}, {{nla_len=8, nla_type=IFA_LOCAL}, inet_addr("127.0.0.1")}, {{nla_len=7, nla_type=IFA_LABEL}, "lo"}, {{nla_len=8, nla_type=IFA_FLAGS}, IFA_F_PERMANENT}, {{nla_len=20, nla_type=IFA_CACHEINFO}, {ifa_prefered=4294967295, ifa_valid=4294967295, cstamp=2897, tstamp=2897}}]}, {{len=88, type=RTM_NEWADDR, flags=NLM_F_MULTI, seq=1594189540, pid=2893}, {ifa_family=AF_INET, ifa_prefixlen=24, ifa_flags=IFA_F_PERMANENT, ifa_scope=RT_SCOPE_UNIVERSE, ifa_index=if_nametoindex("vmbr0")}, [{{nla_len=8, nla_type=IFA_ADDRESS}, inet_addr("192.168.1.40")}, {{nla_len=8, nla_type=IFA_LOCAL}, inet_addr("192.168.1.40")}, {{nla_len=8, nla_type=IFA_BROADCAST}, inet_addr("192.168.1.255")}, {{nla_len=10, nla_type=IFA_LABEL}, "vmbr0"}, {{nla_len=8, nla_type=IFA_FLAGS}, IFA_F_PERMANENT}, {{nla_len=20, nla_type=IFA_CACHEINFO}, {ifa_prefered=4294967295, ifa_valid=4294967295, cstamp=3775, tstamp=3775}}]}], iov_len=4096}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 164
+recvmsg(4, {msg_name={sa_family=AF_NETLINK, nl_pid=0, nl_groups=00000000}, msg_namelen=12, msg_iov=[{iov_base=[{{len=72, type=RTM_NEWADDR, flags=NLM_F_MULTI, seq=1594189540, pid=2893}, {ifa_family=AF_INET6, ifa_prefixlen=128, ifa_flags=IFA_F_PERMANENT, ifa_scope=RT_SCOPE_HOST, ifa_index=if_nametoindex("lo")}, [{{nla_len=20, nla_type=IFA_ADDRESS}, inet_pton(AF_INET6, "::1")}, {{nla_len=20, nla_type=IFA_CACHEINFO}, {ifa_prefered=4294967295, ifa_valid=4294967295, cstamp=2897, tstamp=2897}}, {{nla_len=8, nla_type=IFA_FLAGS}, IFA_F_PERMANENT}]}, {{len=72, type=RTM_NEWADDR, flags=NLM_F_MULTI, seq=1594189540, pid=2893}, {ifa_family=AF_INET6, ifa_prefixlen=64, ifa_flags=IFA_F_PERMANENT, ifa_scope=RT_SCOPE_LINK, ifa_index=if_nametoindex("vmbr0")}, [{{nla_len=20, nla_type=IFA_ADDRESS}, inet_pton(AF_INET6, "fe80::7285:c2ff:feb5:5452")}, {{nla_len=20, nla_type=IFA_CACHEINFO}, {ifa_prefered=4294967295, ifa_valid=4294967295, cstamp=4072, tstamp=4072}}, {{nla_len=8, nla_type=IFA_FLAGS}, IFA_F_PERMANENT}]}], iov_len=4096}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 144
+recvmsg(4, {msg_name={sa_family=AF_NETLINK, nl_pid=0, nl_groups=00000000}, msg_namelen=12, msg_iov=[{iov_base={{len=20, type=NLMSG_DONE, flags=NLM_F_MULTI, seq=1594189540, pid=2893}, 0}, iov_len=4096}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 20
+socket(AF_UNIX, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 5
+connect(5, {sa_family=AF_UNIX, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(5)                                = 0
+close(4)                                = 0
+socket(AF_INET6, SOCK_DGRAM|SOCK_CLOEXEC, IPPROTO_IP) = 4
+connect(4, {sa_family=AF_INET6, sin6_port=htons(19999), inet_pton(AF_INET6, "::", &sin6_addr), sin6_flowinfo=htonl(0), sin6_scope_id=0}, 28) = 0
+getsockname(4, {sa_family=AF_INET6, sin6_port=htons(43455), inet_pton(AF_INET6, "::1", &sin6_addr), sin6_flowinfo=htonl(0), sin6_scope_id=0}, [28]) = 0
+connect(4, {sa_family=AF_UNSPEC, sa_data="\0\0\0\0\0\0\0\0\0\0\0\0\0\0"}, 16) = 0
+connect(4, {sa_family=AF_INET, sin_port=htons(19999), sin_addr=inet_addr("0.0.0.0")}, 16) = 0
+getsockname(4, {sa_family=AF_INET6, sin6_port=htons(41265), inet_pton(AF_INET6, "::ffff:127.0.0.1", &sin6_addr), sin6_flowinfo=htonl(0), sin6_scope_id=0}, [28]) = 0
+close(4)                                = 0
+socket(AF_INET, SOCK_STREAM, IPPROTO_IP) = 4
+setsockopt(4, SOL_SOCKET, SO_REUSEADDR, [1], 4) = 0
+setsockopt(4, SOL_SOCKET, SO_REUSEPORT, [1], 4) = 0
+fcntl(4, F_GETFL)                       = 0x2 (flags O_RDWR)
+fcntl(4, F_SETFL, O_RDWR|O_NONBLOCK)    = 0
+setsockopt(4, SOL_SOCKET, SO_RCVBUF, [33554431], 4) = 0
+bind(4, {sa_family=AF_INET, sin_port=htons(19999), sin_addr=inet_addr("0.0.0.0")}, 16) = 0
+listen(4, 4096)                         = 0
+socket(AF_INET6, SOCK_STREAM, IPPROTO_IP) = 5
+setsockopt(5, SOL_SOCKET, SO_REUSEADDR, [1], 4) = 0
+setsockopt(5, SOL_SOCKET, SO_REUSEPORT, [1], 4) = 0
+fcntl(5, F_GETFL)                       = 0x2 (flags O_RDWR)
+fcntl(5, F_SETFL, O_RDWR|O_NONBLOCK)    = 0
+setsockopt(5, SOL_SOCKET, SO_RCVBUF, [33554431], 4) = 0
+setsockopt(5, SOL_IPV6, IPV6_V6ONLY, [1], 4) = 0
+bind(5, {sa_family=AF_INET6, sin6_port=htons(19999), inet_pton(AF_INET6, "::", &sin6_addr), sin6_flowinfo=htonl(0), sin6_scope_id=0}, 28) = 0
+listen(5, 4096)                         = 0
+openat(AT_FDCWD, "/dev/null", O_WRONLY|O_CREAT|O_APPEND, 0664) = 6
+dup2(6, 0)                              = 0
+close(6)                                = 0
+openat(AT_FDCWD, "/var/log/netdata/debug.log", O_WRONLY|O_CREAT|O_APPEND, 0664) = 6
+dup2(6, 1)                              = 1
+close(6)                                = 0
+openat(AT_FDCWD, "/var/log/netdata/error.log", O_WRONLY|O_CREAT|O_APPEND, 0664) = 6
+dup2(6, 2)                              = 2
+close(6)                                = 0
+openat(AT_FDCWD, "/var/log/netdata/access.log", O_WRONLY|O_CREAT|O_APPEND, 0664) = 6
+fcntl(6, F_GETFL)                       = 0x8401 (flags O_WRONLY|O_APPEND|O_LARGEFILE)
+prlimit64(0, RLIMIT_NOFILE, NULL, {rlim_cur=1024, rlim_max=1024*1024}) = 0
+write(2, "2020-07-08 08:25:40: netdata INF"..., 44) = 44
+write(2, "resources control: allowed file "..., 71) = 71
+write(2, "\n", 1)                       = 1
+clone(child_stack=NULL, flags=CLONE_CHILD_CLEARTID|CLONE_CHILD_SETTID|SIGCHLD, child_tidptr=0x7f0d29314510) = 2900
+exit_group(0)                           = ?
++++ exited with 0 +++
